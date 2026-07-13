@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
+import NavigationBar from './NavigationBar'
 
 const ViewDonor = () => {
     const [data, changeData] = useState([])
@@ -26,6 +27,7 @@ const ViewDonor = () => {
     )
     return (
         <div>
+            <NavigationBar/>
 
             <table class="table">
                 <thead>
