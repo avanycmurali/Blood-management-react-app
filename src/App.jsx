@@ -4,13 +4,14 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import NavigationBar from './components/NavigationBar'
+import AddDonor from './components/AddDonor'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    
+    <AddDonor/>
     </>
   )
 }
